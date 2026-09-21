@@ -1,0 +1,16 @@
+JSP000301.jsp_000301 : Not
+  (∀ (n : Nat),
+    @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) n →
+      JSP000301.Powerful n →
+        JSP000301.Powerful
+            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) n
+              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))) →
+          Or (JSP000301.IsSquare n)
+            (JSP000301.IsSquare
+              (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) n
+                (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+'JSP000301.powerful_12167' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'JSP000301.powerful_12168' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'JSP000301.not_square_12167' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'JSP000301.not_square_12168' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+'JSP000301.jsp_000301' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
